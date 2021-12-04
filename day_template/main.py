@@ -14,8 +14,7 @@ def part2(input_list):
 
 
 if __name__ == "__main__":
-    line_list = read_file(    path = os.path.join(sys.path[0], "input.txt"))
-    input_list = [int(item) for item in line_list]
-    test_list = []
+    input_list = read_file(path = os.path.join(sys.path[0], "input.txt"))
+    test_list = read_file(path = os.path.join(sys.path[0], "test_input.txt"))
     #part1(input_list)
     #part2(input_list)
